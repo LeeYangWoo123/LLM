@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client=OpenAI(
-    api_key=os.getenv("API_KEY")
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 # temperature: 출력의 무작위성(창의성), 0.0 <= x < 1.0
@@ -18,3 +18,4 @@ response= client.chat.completions.create(
         {"role":"user", "content":"왜 강남은 강남이라고 할까요?"}
     ], temperature=0.0
 )
+print(response)
