@@ -1,0 +1,2 @@
+1. cmd 터미널로 실행 (python 1_gpttest.py 입력)
+2. idle로 실행 (경로: C:\Users\Lushimiru\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.11)
